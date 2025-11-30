@@ -31,24 +31,6 @@ const mockConsultations: Consultation[] = [
     urgencyLevel: "Muy Alta",
   },
   {
-    id: "2",
-    criticality: "orange",
-    parentName: "Carlos Rodríguez",
-    childName: "Mateo Rodríguez",
-    childAge: 3,
-    dni: "44556677",
-    firstContact: "15:45",
-    mainSymptom: "Vómitos y diarrea persistente",
-    fullDescription: "Vómitos y diarrea desde ayer por la noche.",
-    evolution:
-      "Cuadro de gastroenteritis aguda de 24 horas de evolución. Vómitos múltiples y diarrea líquida. Signos de deshidratación leve.",
-    diagnosis: "Gastroenteritis aguda viral probable. Deshidratación leve.",
-    examinations: "Análisis de sangre para evaluar electrolitos y función renal.",
-    treatment:
-      "Rehidratación oral con sales de rehidratación. Dieta blanda progresiva. Considerar hidratación endovenosa si no tolera vía oral.",
-    urgencyLevel: "Alta",
-  },
-  {
     id: "3",
     criticality: "yellow",
     parentName: "Ana Martínez",
